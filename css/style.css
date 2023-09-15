@@ -1,0 +1,53 @@
+/* Tipografia */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+
+/* selector universal **/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Selector de etiqueta */
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Selector de id #*/
+
+#word_one {
+    font-size: 30px;
+    color: rgb(122, 22, 22);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#list_option{
+    border: 5px solid red;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+/* Selector por clase .*/
+
+.word_group {
+    background-color: rgb(2, 2, 1);
+    color: #FFF;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Selector por atributo []*/
+
+[disabled] {
+    background-color: aqua;
+}
+
+/* Pseudo clase */
+
+.word_group:hover {
+    background-color: yellow;
+    padding: 5px;
+}
