@@ -6,16 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        /* Flex direction: flex start */
+        /* Flex direction: flex end */
+        /* Flex direction: flex end */
+        /* Flex direction: column reverse */
+        /* Flex direction: column */
+        /* Flex direction: rwo reverse */
+        /* Flex direction: rwo */
+        /* Flex direction:  */
         #father{
             height: 100vh;
             /* display: grid;
             place-items: center; */
             display: flex;
-            justify-content: center;
+            justify-content: space-around;
             align-items: center;
             gap: 50px;
             flex-wrap: nowrap;
-            flex-direction: column-reverse;
+            flex-direction: row-reverse;
         }
         #son, #son_one, #son_two, #son_three {
             height: 150px;
@@ -24,7 +32,7 @@
             border-radius: 10px;
             transform: skew(-5deg, -10deg);
         }
-        
+
         #son_one {
             background-color: blue;
             transform: translate(-5px, -10px);
